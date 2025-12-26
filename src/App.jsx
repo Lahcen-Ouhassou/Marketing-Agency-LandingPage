@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<MainLayout />}>
-          {/* ✅ الصفحة الرئيسية */}
+          {/* Home Page */}
           <Route index element={<Home />} />
 
-          {/* باقي الصفحات */}
+          {/* All Pages */}
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="contact" element={<Contact />} />
