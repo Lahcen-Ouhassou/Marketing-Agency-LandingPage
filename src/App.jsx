@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<MainLayout />}>
+        <Route element={<MainLayout />}> //footer und navbar ist Fix
           {/* Home Page */}
           <Route index element={<Home />} />
           {/* All Pages */}
