@@ -12,7 +12,6 @@ function App() {
         <Route element={<MainLayout />}>
           {/* Home Page */}
           <Route index element={<Home />} />
-
           {/* All Pages */}
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
