@@ -1,5 +1,15 @@
+import Hero from "@/components/sections/Hero";
+import Features from "@/components/sections/Features";
+import FAQ from "@/components/sections/FAQ";
+
 function Home() {
-  return <div className="text-3xl font-bold">Home Page is Working 🚀</div>;
+  return (
+    <>
+      <Hero />
+      <Features />
+      <FAQ />
+    </>
+  );
 }
 
 export default Home;
