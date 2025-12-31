@@ -1,22 +1,22 @@
-import { Button } from "@/components/ui/button";
-
-function Hero() {
+export default function Hero() {
   return (
-    <section className="py-24 text-center bg-gradient-to-b from-background to-muted">
-      <h1 className="text-5xl font-bold mb-6">Grow Your Business</h1>
+    <section className="bg-gray-50">
+      <div className="mx-auto max-w-screen-xl px-4 py-32">
+        <div className="mx-auto max-w-3xl text-center">
+          <h1 className="text-4xl font-bold sm:text-6xl">Grow your business</h1>
 
-      <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-        We help brands grow with modern marketing solutions.
-      </p>
+          <p className="mt-4 text-gray-600">
+            We help companies grow online with modern strategies.
+          </p>
 
-      <div className="flex justify-center gap-4">
-        <Button size="lg">Get Started</Button>
-        <Button size="lg" variant="outline">
-          Learn More
-        </Button>
+          <div className="mt-8 flex justify-center gap-4">
+            <button className="bg-blue-600 px-8 py-3 text-white rounded-lg">
+              Get Started
+            </button>
+            <button className="border px-8 py-3 rounded-lg">Learn More</button>
+          </div>
+        </div>
       </div>
     </section>
   );
 }
-
-export default Hero;
