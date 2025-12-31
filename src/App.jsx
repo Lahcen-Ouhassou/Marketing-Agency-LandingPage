@@ -20,3 +20,13 @@ function App() {
 }
 
 export default App;
+
+// MainLayout
+// │
+// ├── Navbar   (Fix)
+// ├── Outlet   (كيبدّل المحتوى)
+// │     ├── Home
+// │     ├── About
+// │     ├── Services
+// │     └── Contact
+// └── Footer   (Fix)
