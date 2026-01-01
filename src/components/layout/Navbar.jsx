@@ -1,27 +1,37 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <header className="border-b bg-white">
-      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+    <header className="border-b">
+      <div className="mx-auto max-w-screen-xl px-4 py-4 flex items-center justify-between">
         <h1 className="text-xl font-bold">Marketing Agency</h1>
 
-        <nav className="flex gap-6">
-          <Link to="/" className="hover:text-blue-600">
-            Home
-          </Link>
-          <Link to="/about" className="hover:text-blue-600">
-            About
-          </Link>
-          <Link to="/services" className="hover:text-blue-600">
-            Services
-          </Link>
-          <Link to="/contact" className="hover:text-blue-600">
-            Contact
-          </Link>
+        {/* Desktop */}
+        <nav className="hidden md:flex gap-6 text-sm">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
+
+        {/* Mobile button */}
+        <button className="md:hidden" onClick={() => setOpen(!open)}>
+          ☰
+        </button>
       </div>
+
+      {/* Mobile menu */}
+      {open && (
+        <div className="md:hidden border-t px-4 py-4 space-y-3">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+      )}
     </header>
   );
 }
-
