@@ -18,14 +18,15 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile button */}
-        <button className="md:hidden" onClick={() => setOpen(!open)}>
+        <button className="md:hidden cursor-pointer " onClick={() => setOpen(!open)}>
           ☰
         </button>
       </div>
 
       {/* Mobile menu */}
+
       {open && (
-        <div className="md:hidden border-t px-4 py-4 space-y-3">
+        <div className="md:hidden grid grid-cols-1 border-t px-4 py-4 space-y-3">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/services">Services</Link>
