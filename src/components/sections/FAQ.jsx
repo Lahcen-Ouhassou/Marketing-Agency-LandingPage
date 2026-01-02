@@ -1,29 +1,101 @@
-import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from "@/components/ui/accordion";
+
 
 function FAQ() {
   return (
-    <section className="py-20 max-w-3xl mx-auto">
-      <h2 className="text-3xl font-bold text-center mb-8">
-        Frequently Asked Questions
-      </h2>
+    <div class="space-y-3">
+      <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
+        <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
+          <span class="font-semibold">What are the basic features?</span>
 
-      <Accordion type="single" collapsible>
-        <AccordionItem value="item-1">
-          <AccordionTrigger>What is this?</AccordionTrigger>
-          <AccordionContent>Landing page for business</AccordionContent>
-        </AccordionItem>
+          <svg
+            class="size-5 shrink-0 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </summary>
 
-        <AccordionItem value="item-2">
-          <AccordionTrigger>Is it customizable?</AccordionTrigger>
-          <AccordionContent>Yes, fully customizable</AccordionContent>
-        </AccordionItem>
-      </Accordion>
-    </section>
+        <div class="p-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            similique, quae hic dicta quo facere facilis praesentium a sunt, est
+            quia pariatur nam, modi aut minus iste odio consectetur molestias
+            iusto cupiditate ullam laborum veniam quos officia. Quos, temporibus
+            perspiciatis!
+          </p>
+        </div>
+      </details>
+
+      <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
+        <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
+          <span class="font-semibold">How do I get started?</span>
+
+          <svg
+            class="size-5 shrink-0 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </summary>
+
+        <div class="p-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            similique, quae hic dicta quo facere facilis praesentium a sunt, est
+            quia pariatur nam, modi aut minus iste odio consectetur molestias
+            iusto cupiditate ullam laborum veniam quos officia. Quos, temporibus
+            perspiciatis!
+          </p>
+        </div>
+      </details>
+
+      <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
+        <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
+          <span class="font-semibold">What support options are available?</span>
+
+          <svg
+            class="size-5 shrink-0 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </summary>
+
+        <div class="p-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            similique, quae hic dicta quo facere facilis praesentium a sunt, est
+            quia pariatur nam, modi aut minus iste odio consectetur molestias
+            iusto cupiditate ullam laborum veniam quos officia. Quos, temporibus
+            perspiciatis!
+          </p>
+        </div>
+      </details>
+    </div>
   );
 }
 
