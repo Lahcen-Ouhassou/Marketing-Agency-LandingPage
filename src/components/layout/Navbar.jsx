@@ -18,8 +18,11 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile button */}
-        <button className="md:hidden cursor-pointer " onClick={() => setOpen(!open)}>
-          ☰
+        <button
+          className="md:hidden cursor-pointer "
+          onClick={() => setOpen(!open)}
+        >
+          ☰☰
         </button>
       </div>
 
