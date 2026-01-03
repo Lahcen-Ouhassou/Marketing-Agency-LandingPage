@@ -1,33 +1,52 @@
-const features = [
-  {
-    title: "Fast Performance",
-    desc: "Optimized for speed and scalability.",
-  },
-  {
-    title: "Modern Design",
-    desc: "Clean UI built with Tailwind CSS.",
-  },
-  {
-    title: "SEO Ready",
-    desc: "Rank higher on search engines.",
-  },
-];
-
-export default function Features() {
+function Features() {
   return (
-    <section className="py-24">
-      <div className="mx-auto max-w-screen-xl px-4">
-        <h2 className="text-center text-3xl font-bold">Why choose us?</h2>
+    <section className="bg-gray-50 py-24">
+      <div className="mx-auto max-w-7xl px-4">
+        {/* Title */}
+        <div className="mb-16 text-center">
+          <h2 className="text-3xl font-bold sm:text-4xl">
+            Our Features
+          </h2>
+          <p className="mt-4 text-gray-600">
+            Everything you need to grow your business online
+          </p>
+        </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
-          {features.map((f) => (
-            <div key={f.title} className="rounded-xl border p-6">
-              <h3 className="text-lg font-semibold">{f.title}</h3>
-              <p className="mt-2 text-gray-600 text-sm">{f.desc}</p>
-            </div>
-          ))}
+        {/* Cards */}
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {/* Card 1 */}
+          <div className="rounded-xl bg-white p-8 shadow-sm">
+            <h3 className="text-xl font-semibold">
+              Fast Performance
+            </h3>
+            <p className="mt-3 text-gray-600">
+              Optimized solutions for fast and smooth user experience.
+            </p>
+          </div>
+
+          {/* Card 2 */}
+          <div className="rounded-xl bg-white p-8 shadow-sm">
+            <h3 className="text-xl font-semibold">
+              Modern Design
+            </h3>
+            <p className="mt-3 text-gray-600">
+              Clean and modern UI that converts visitors into clients.
+            </p>
+          </div>
+
+          {/* Card 3 */}
+          <div className="rounded-xl bg-white p-8 shadow-sm">
+            <h3 className="text-xl font-semibold">
+              SEO Optimized
+            </h3>
+            <p className="mt-3 text-gray-600">
+              Improve your visibility on search engines easily.
+            </p>
+          </div>
         </div>
       </div>
     </section>
-  );
+  )
 }
+
+export default Features
