@@ -8,14 +8,20 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Routes>
-      <Route element={<MainLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-      </Route>
-    </Routes>
+    <div className="relative overflow-hidden bg-gradient-to-br from-[#0B1020] via-[#121A3A] to-[#0B1020]">
+      {/* Blur shapes */}
+      <div className="absolute -top-40 -left-40 h-[500px] w-[500px] rounded-full bg-purple-600/30 blur-3xl"></div>
+      <div className="absolute top-1/4 -right-40 h-[500px] w-[500px] rounded-full bg-indigo-600/30 blur-3xl"></div>
+
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </div>
   );
 }
 
