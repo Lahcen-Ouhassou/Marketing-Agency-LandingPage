@@ -1,10 +1,10 @@
 function FAQ() {
   return (
     <div className="min-h-screen flex justify-center items-start pt-20">
-      <div class="space-y-3 w-5xl">
+      <div className="space-y-3 w-5xl">
         <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
-            <span class="font-semibold">What are the basic features?</span>
+            <span class="font-semibold ">What are the basic features?</span>
 
             <svg
               class="size-5 shrink-0 group-open:-rotate-180"
@@ -22,7 +22,7 @@ function FAQ() {
             </svg>
           </summary>
 
-          <div class="p-4">
+          <div class="p-4 text-white">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               similique, quae hic dicta quo facere facilis praesentium a sunt,
@@ -53,7 +53,7 @@ function FAQ() {
             </svg>
           </summary>
 
-          <div class="p-4">
+          <div class="p-4 text-white">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               similique, quae hic dicta quo facere facilis praesentium a sunt,
@@ -86,7 +86,7 @@ function FAQ() {
             </svg>
           </summary>
 
-          <div class="p-4">
+          <div class="p-4 text-white">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               similique, quae hic dicta quo facere facilis praesentium a sunt,
