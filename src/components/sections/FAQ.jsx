@@ -23,7 +23,7 @@ function FAQ() {
           </summary>
 
           <div class="p-4 text-white">
-            <p>
+            <p class="text-gray-300">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               similique, quae hic dicta quo facere facilis praesentium a sunt,
               est quia pariatur nam, modi aut minus iste odio consectetur
@@ -53,8 +53,8 @@ function FAQ() {
             </svg>
           </summary>
 
-          <div class="p-4 text-white">
-            <p>
+          <div class="p-4 text-white ">
+            <p class="text-gray-300">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               similique, quae hic dicta quo facere facilis praesentium a sunt,
               est quia pariatur nam, modi aut minus iste odio consectetur
@@ -87,7 +87,7 @@ function FAQ() {
           </summary>
 
           <div class="p-4 text-white">
-            <p>
+            <p class="text-gray-300">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               similique, quae hic dicta quo facere facilis praesentium a sunt,
               est quia pariatur nam, modi aut minus iste odio consectetur
