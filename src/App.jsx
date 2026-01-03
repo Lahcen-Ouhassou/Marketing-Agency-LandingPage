@@ -12,7 +12,8 @@ function App() {
       {/* Blur shapes */}
       <div className="absolute -top-40 -left-40 h-[500px] w-[500px] rounded-full bg-purple-600/30 blur-3xl"></div>
       <div className="absolute top-1/4 -right-40 h-[500px] w-[500px] rounded-full bg-indigo-600/30 blur-3xl"></div>
-
+      <div className="absolute top-1/4 -right-40 h-96 w-96 rounded-full bg-indigo-600/30 blur-3xl"></div>
+      <div className="absolute bottom-0 left-1/3 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl"></div>
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
