@@ -1,6 +1,7 @@
 export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#0B1020] via-[#121A3A] to-[#0B1020]">
+        {/* Circle Design: */}
       <div className="absolute -top-32 -left-32 h-96 w-96 rounded-full bg-purple-600/30 blur-3xl"></div>
       <div className="absolute top-1/3 -right-32 h-96 w-96 rounded-full bg-indigo-600/30 blur-3xl"></div>
       <div className="absolute bottom-0 left-1/3 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl"></div>
