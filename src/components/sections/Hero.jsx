@@ -5,6 +5,7 @@ export default function Hero() {
       <div className="absolute -top-32 -left-32 h-96 w-96 rounded-full bg-purple-600/30 blur-3xl"></div>
       <div className="absolute top-1/3 -right-32 h-96 w-96 rounded-full bg-indigo-600/30 blur-3xl"></div>
       <div className="absolute bottom-0 left-1/3 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl"></div>
+      
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-82 text-center ">
         <h1 className="text-4xl font-bold text-white sm:text-6xl">
