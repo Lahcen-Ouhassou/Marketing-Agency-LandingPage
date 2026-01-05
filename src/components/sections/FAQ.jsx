@@ -97,6 +97,7 @@ function FAQ() {
             </p>
           </div>
         </details>
+        
       </div>
     </div>
   );

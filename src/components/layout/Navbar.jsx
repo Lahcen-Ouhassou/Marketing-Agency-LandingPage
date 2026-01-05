@@ -8,7 +8,7 @@ export default function Navbar() {
     // had "relative z-50" bch tgha ela dik dev li absoulete w tdoz l lein fch nwta ela home wla contact
     <header className="">
       <div className="mx-auto max-w-screen-xl px-4 py-5 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 z-50">
+        <Link to="/" className="flex items-center gap-2">
           <h1 className="text-xl font-bold text-white hover:opacity-80 transition">
             Marketing Agency
           </h1>
