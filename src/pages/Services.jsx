@@ -1,58 +1,75 @@
-function Services() {
+import {
+  FaCode,
+  FaPaintBrush,
+  FaSearch,
+  FaShoppingCart,
+  FaTools,
+  FaChartLine,
+} from "react-icons/fa";
+
+export default function Services() {
+  const services = [
+    {
+      icon: <FaCode />,
+      title: "Web Development",
+      desc: "Modern, fast and scalable websites built with the latest technologies.",
+    },
+    {
+      icon: <FaPaintBrush />,
+      title: "UI / UX Design",
+      desc: "Clean and intuitive designs focused on user experience.",
+    },
+    {
+      icon: <FaShoppingCart />,
+      title: "E-Commerce Solutions",
+      desc: "Complete online stores with secure payments and smooth checkout.",
+    },
+    {
+      icon: <FaSearch />,
+      title: "SEO Optimization",
+      desc: "Improve your website visibility and ranking on search engines.",
+    },
+    {
+      icon: <FaChartLine />,
+      title: "Digital Marketing",
+      desc: "Marketing strategies that help your business grow online.",
+    },
+    {
+      icon: <FaTools />,
+      title: "Maintenance & Support",
+      desc: "Ongoing support, updates, and performance monitoring.",
+    },
+  ];
+
   return (
-    <section className="bg-white py-24">
-      <div className="mx-auto max-w-7xl px-4">
-        {/* Header */}
-        <div className="mb-20 text-center">
-          <h1 className="text-4xl font-bold sm:text-5xl">Our Services</h1>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            We provide complete digital solutions to help your business grow.
-          </p>
+    <section className="py-24 bg-white text-gray-900">
+      <div className="max-w-6xl mx-auto px-6">
+        {/* ===== TITLE ===== */}
+        <div className="mb-20">
+          <div className="flex items-center gap-4 mb-4">
+            <h1 className="text-4xl font-bold whitespace-nowrap">Services</h1>
+            <span className="h-px mt-3 bg-linear-to-l from-transparent to-gray-300 flex-1 "></span>
+          </div>
+
+          <p className="text-gray-500">What we can do for your business</p>
         </div>
 
-        {/* Services List */}
-        <div className="space-y-16">
-          {/* Service 1 */}
-          <div className="grid gap-10 lg:grid-cols-2 items-center">
-            <div>
-              <h2 className="text-2xl font-semibold">Digital Marketing</h2>
-              <p className="mt-4 text-gray-600">
-                Grow your brand with targeted marketing strategies, social media
-                campaigns, and performance ads.
-              </p>
+        {/* ===== SERVICES LIST ===== */}
+        <div className="grid gap-14 md:grid-cols-2">
+          {services.map((service, index) => (
+            <div key={index} className="flex gap-6 items-start">
+              {/* Icon */}
+              <div className="text-3xl text-indigo-600">{service.icon}</div>
+
+              {/* Text */}
+              <div>
+                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{service.desc}</p>
+              </div>
             </div>
-
-            <div className="h-64 rounded-xl bg-gray-100" />
-          </div>
-
-          {/* Service 2 */}
-          <div className="grid gap-10 lg:grid-cols-2 items-center">
-            <div className="order-2 lg:order-1 h-64 rounded-xl bg-gray-100" />
-
-            <div className="order-1 lg:order-2">
-              <h2 className="text-2xl font-semibold">Web Development</h2>
-              <p className="mt-4 text-gray-600">
-                Modern, fast and responsive websites built with the latest
-                technologies.
-              </p>
-            </div>
-          </div>
-
-          {/* Service 3 */}
-          <div className="grid gap-10 lg:grid-cols-2 items-center">
-            <div>
-              <h2 className="text-2xl font-semibold">SEO Optimization</h2>
-              <p className="mt-4 text-gray-600">
-                Improve your search engine ranking and attract organic traffic.
-              </p>
-            </div>
-
-            <div className="h-64 rounded-xl bg-gray-100" />
-          </div>
+          ))}
         </div>
       </div>
     </section>
   );
 }
-
-export default Services;
