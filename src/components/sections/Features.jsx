@@ -44,10 +44,7 @@ function Features() {
           </a>
 
           {/* Card 4 */}
-          <a
-            href="#"
-            class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0,12px_12px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6"
-          >
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">Paid Advertising (Ads) </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
@@ -56,10 +53,7 @@ function Features() {
             </p>
           </a>
           {/* Card 5 */}
-          <a
-            href="#"
-            class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0,12px_12px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6"
-          >
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">Brand Identity </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
@@ -67,11 +61,8 @@ function Features() {
               from the competition.
             </p>
           </a>
-          {/* Card 2 */}
-          <a
-            href="#"
-            class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0,12px_12px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6"
-          >
+          {/* Card 6 */}
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">Analytics & Reporting </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
