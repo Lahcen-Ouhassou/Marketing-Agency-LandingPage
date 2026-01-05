@@ -13,7 +13,7 @@ function Features() {
         {/* Cards */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* Card 1 */}
-          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-indigo-400 hover:text-white hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">
               Digital Marketing Strategy
             </h3>
@@ -25,7 +25,7 @@ function Features() {
           </a>
 
           {/* Card 2 */}
-          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-indigo-400 hover:text-white hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">Social Media Management </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
@@ -34,7 +34,7 @@ function Features() {
             </p>
           </a>
           {/* Card 3 */}
-          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-indigo-400 hover:text-white hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">SEO Optimization </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
@@ -44,7 +44,7 @@ function Features() {
           </a>
 
           {/* Card 4 */}
-          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-indigo-400 hover:text-white hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">Paid Advertising (Ads) </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
@@ -53,7 +53,7 @@ function Features() {
             </p>
           </a>
           {/* Card 5 */}
-          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-indigo-400 hover:text-white hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">Brand Identity </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
@@ -62,7 +62,7 @@ function Features() {
             </p>
           </a>
           {/* Card 6 */}
-          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-yellow-100 hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
+          <a class="block border-2 border-black bg-white p-4 shadow-[4px_4px_0_0,8px_8px_0_0] hover:translate-3 hover:bg-indigo-400 hover:text-white hover:shadow-none focus:ring-2 focus:ring-yellow-300 focus:outline-0 sm:p-6">
             <h3 class="mt-1 text-xl font-semibold">Analytics & Reporting </h3>
 
             <p class="mt-2 line-clamp-2 text-pretty">
