@@ -122,7 +122,7 @@ const Contact = () => {
               className="w-full max-h-48  p-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-400 "
               style={{ backgroundColor: "#0B1020" }}
             ></textarea>
-            <button className="mt-4 px-6 py-2 bg-indigo-700 text-neutral-900 rounded-full font-medium hover:bg-indigo-400 transition">
+            <button className="mt-4 px-6 py-2 bg-indigo-700 text-neutral-900 rounded-r-3xl font-medium hover:bg-indigo-400 transition">
               Submit
             </button>
           </div>
