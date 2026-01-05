@@ -35,7 +35,7 @@ function FAQ() {
         </details>
 
         <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
-          <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
+          <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900  hover:bg-indigo-400 hover:text-white">
             <span class="font-semibold">How do I get started?</span>
 
             <svg
@@ -66,7 +66,7 @@ function FAQ() {
         </details>
 
         <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
-          <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
+          <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900  hover:bg-indigo-400 hover:text-white">
             <span class="font-semibold">
               What support options are available?
             </span>
