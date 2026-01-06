@@ -1,7 +1,18 @@
 function FAQ() {
   return (
+    
     <div className="min-h-screen flex justify-center items-start pt-20">
+      
       <div className="space-y-3 w-5xl">
+         {/* TITLE */}
+        <div className="mb-20">
+          <div className="mb-16 text-center">
+          <h2 className="text-3xl font-bold sm:text-4xl text-white">FAQ</h2>
+            <p className="mt-4 text-gray-600">
+Everything you need to know before getting started
+          </p>
+        </div>
+        </div>
         <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900  hover:bg-indigo-400 hover:text-white">
             <span class="font-semibold  ">What are the basic features?</span>
