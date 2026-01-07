@@ -1,3 +1,4 @@
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#0B1020] via-[#121A3A] to-[#0B1020]">
@@ -19,10 +20,13 @@ export default function Hero() {
         </p>
 
         <div className="mt-8 flex justify-center gap-4">
-          <a className="rounded bg-indigo-600 px-6 py-3 font-medium text-white hover:bg-indigo-700">
-            Get Started
-          </a>
-          <a className="rounded px-6 py-3 font-medium text-gray-300 hover:text-white">
+          <a
+    href="#our-features"
+    className="rounded bg-indigo-600 px-6 py-3 font-medium text-white hover:bg-indigo-700 transition"
+  >
+    Get Started
+  </a>
+          <a href="/about" className="rounded px-6 py-3 font-medium text-gray-300 hover:text-white">
             Learn More →
           </a>
         </div>
