@@ -1,7 +1,7 @@
 function FAQ() {
   return (
-    
-    <div className="min-h-screen flex justify-center items-start pt-20">
+    <section className="py-16 bg-[#0B1020] text-gray-100">
+    <div className=" flex justify-center items-start pb-15">
       
       <div className="space-y-3 w-5xl">
          {/* TITLE */}
@@ -9,7 +9,7 @@ function FAQ() {
           <div className="mb-16 text-center">
           <h2 className="text-3xl font-bold sm:text-4xl text-white">FAQ</h2>
             <p className="mt-4 text-gray-600">
-Everything you need to know before getting started
+                Everything you need to know before getting started
           </p>
         </div>
         </div>
@@ -111,7 +111,7 @@ Everything you need to know before getting started
       </div>
       
     </div>
-    
+    </section>
     
   );
 }
