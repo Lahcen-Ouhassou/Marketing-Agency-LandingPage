@@ -14,7 +14,9 @@ function About() {
 
         {/* ===== CONTENT ===== */}
         <div className="max-w-4xl">
+          
           <p className="text-lg leading-relaxed text-gray-300">
+            
             We are a digital marketing agency dedicated to helping businesses
             grow and succeed in the online world. Our team combines creativity,
             strategy, and data-driven insights to deliver impactful marketing
