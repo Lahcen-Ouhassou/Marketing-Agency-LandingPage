@@ -39,11 +39,12 @@ export default function Navbar() {
           <Link className="block py-2" to="/">
             Home
           </Link>
-          <Link className="block py-2" to="/about">
-            About
-          </Link>
+          
           <Link className="block py-2" to="/services">
             Services
+          </Link>
+          <Link className="block py-2" to="/about">
+            About
           </Link>
           <Link className="block py-2" to="/contact">
             Contact
