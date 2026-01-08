@@ -32,12 +32,16 @@ export default function Hero() {
               Get Started
             </a>
 
-            <a
-              href="/about"
-              className="rounded-lg px-6 py-3 font-medium text-gray-300 hover:text-white transition"
-            >
-              Learn More →
-            </a>
+         <a
+  href="/about"
+  className="group rounded-lg px-6 py-3 font-medium text-gray-300 hover:text-white transition inline-flex items-center gap-2"
+>
+  Learn More
+  <span className="inline-block scale-125 transition-transform duration-300 group-hover:translate-x-2">
+    →
+  </span>
+</a>
+
           </div>
         </div>
 
