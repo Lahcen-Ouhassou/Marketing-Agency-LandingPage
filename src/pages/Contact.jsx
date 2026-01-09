@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedContent from '@/components/AnimatedContent';
 
 const Contact = () => {
   return (
@@ -14,6 +15,7 @@ const Contact = () => {
         </div>
 
         {/* ===== FORM + INFO ===== */}
+        <AnimatedContent direction="vertical" reverse={false} disappearEase="bounce.in">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* ----- Info ----- */}
           <div className="space-y-8">
@@ -132,6 +134,7 @@ const Contact = () => {
             </button>
           </div>
         </div>
+        </AnimatedContent>
       </div>
     </section>
   );
