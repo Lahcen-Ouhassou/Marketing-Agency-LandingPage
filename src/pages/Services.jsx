@@ -6,6 +6,7 @@ import {
   FaTools,
   FaChartLine,
 } from "react-icons/fa";
+import AnimatedContent from '@/components/AnimatedContent';
 
 export default function Services() {
   const services = [
@@ -57,6 +58,7 @@ export default function Services() {
         {/* ===== SERVICES LIST ===== */}
         <div className="grid gap-14 md:grid-cols-2">
           {services.map((service, index) => (
+            <AnimatedContent direction="vertical" reverse={false} disappearEase="bounce.in">
             <div key={index} className="flex gap-6 items-start">
               {/* Icon */}
               <div className="text-3xl text-indigo-600">{service.icon}</div>
@@ -67,6 +69,7 @@ export default function Services() {
                 <p className="text-gray-600 leading-relaxed">{service.desc}</p>
               </div>
             </div>
+            </AnimatedContent>
           ))}
         </div>
       </div>
