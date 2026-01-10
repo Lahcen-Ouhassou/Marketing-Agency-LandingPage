@@ -5,15 +5,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+
 
 function App() {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br from-[#0B1020] via-[#121A3A] to-[#0B1020]">
-      {/* Blur shapes */}
-      <div className="absolute -top-40 -left-40 h-[500px] w-[500px] rounded-full bg-purple-600/30 blur-3xl"></div>
-      <div className="absolute top-1/4 -right-40 h-[500px] w-[500px] rounded-full bg-indigo-600/30 blur-3xl"></div>
-      <div className="absolute top-1/4 -right-40 h-96 w-96 rounded-full bg-indigo-600/30 blur-3xl"></div>
-      <div className="absolute bottom-0 left-1/3 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl"></div>
+   
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
@@ -21,8 +18,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
+         <Route path="*" element={<NotFound />} />
       </Routes>
-    </div>
   );
 }
 
