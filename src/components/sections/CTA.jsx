@@ -1,13 +1,23 @@
 import { Link } from "react-router-dom";
+import ScrollFloat from '../ScrollFloat';
 
 function CTA() {
   return (
     <section className="py-24 bg-indigo-600 text-white">
+              
       <div className="max-w-4xl mx-auto px-6 text-center">
-
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-          Ready to grow your business?
-        </h2>
+ <ScrollFloat
+  animationDuration={1}
+  ease="back.inOut(2)"
+  scrollStart="center bottom+=50%"
+  scrollEnd="bottom bottom-=40%"
+  stagger={0.03}
+  containerClassName=""
+  textClassName="text-4xl font-bold sm:text-4xl"
+>
+   Ready to grow your business?
+</ScrollFloat>
+       
 
         <p className="text-indigo-100 mb-10">
           Let’s work together to build strategies that bring real results.
@@ -27,6 +37,7 @@ function CTA() {
           >
             Our Services
           </Link>
+          
         </div>
 
 
