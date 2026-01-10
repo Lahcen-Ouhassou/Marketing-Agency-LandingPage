@@ -1,3 +1,6 @@
+import ScrollFloat from '../ScrollFloat';
+import AnimatedContent from '../AnimatedContent';
+
 function FAQ() {
   return (
     <section className="py-16 bg-[#0B1020] text-gray-100">
@@ -7,12 +10,23 @@ function FAQ() {
          {/* TITLE */}
         <div className="mb-20">
           <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold sm:text-4xl text-white">FAQ</h2>
+             <ScrollFloat
+  animationDuration={1}
+  ease="back.inOut(2)"
+  scrollStart="center bottom+=50%"
+  scrollEnd="bottom bottom-=40%"
+  stagger={0.03}
+  containerClassName=""
+  textClassName="text-4xl font-bold sm:text-4xl"
+>
+  FAQ 
+</ScrollFloat>
             <p className="mt-4 text-gray-600">
                 Everything you need to know before getting started
           </p>
         </div>
         </div>
+                 <AnimatedContent direction="vertical" reverse={false} disappearEase="bounce.in">
         <details class="group [&amp;_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900  hover:bg-indigo-400 hover:text-white">
             <span class="font-semibold  ">What are the basic features?</span>
@@ -108,6 +122,7 @@ function FAQ() {
             </p>
           </div>
         </details>
+         </AnimatedContent>
       </div>
       
     </div>
