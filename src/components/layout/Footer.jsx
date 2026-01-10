@@ -25,7 +25,7 @@ function Footer() {
               <ul className="space-y-2">
                 <li>
                   <Link to="/about" className="hover:text-white transition">
-                    About Us
+                    About
                   </Link>
                 </li>
                 <li>
