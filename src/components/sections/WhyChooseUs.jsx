@@ -1,4 +1,7 @@
 import { CheckCircle } from "lucide-react";
+import AnimatedContent from '../AnimatedContent';
+import ScrollFloat from '../ScrollFloat';
+
 
 function WhyChooseUs() {
   return (
@@ -8,7 +11,17 @@ function WhyChooseUs() {
         {/* TITLE */}
         <div className="mb-20">
           <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold sm:text-4xl">Why Choose Us</h2>
+              <ScrollFloat
+  animationDuration={1}
+  ease="back.inOut(2)"
+  scrollStart="center bottom+=50%"
+  scrollEnd="bottom bottom-=40%"
+  stagger={0.03}
+  containerClassName=""
+  textClassName="text-4xl font-bold sm:text-4xl"
+>
+  Why Choose Us
+</ScrollFloat>
             <p className="mt-4 text-gray-600">
             We focus on results, transparency, and long-term growth for your business
           </p>
@@ -16,8 +29,11 @@ function WhyChooseUs() {
         </div>
 
         {/* CONTENT */}
+
+        <AnimatedContent direction="vertical" reverse={false} disappearEase="bounce.in">
         <div className="grid gap-12 md:grid-cols-3">
           
+           
           <div className="flex gap-4">
             <CheckCircle className="text-indigo-400 mt-1" />
             <div>
@@ -55,6 +71,7 @@ function WhyChooseUs() {
           </div>
 
         </div>
+        </AnimatedContent>
       </div>
     </section>
   );
