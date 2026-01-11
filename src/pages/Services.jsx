@@ -48,7 +48,7 @@ export default function Services() {
         {/* ===== TITLE ===== */}
         <div className="mb-20">
           <div className="flex items-center gap-4 mb-4">
-            <h1 className="text-4xl font-bold whitespace-nowrap">Services</h1>
+            <h1 className="text-4xl font-bold whitespace-nowrap">Our Services</h1>
             <span className="h-px mt-3 bg-linear-to-l from-transparent to-gray-300 flex-1 "></span>
           </div>
 
