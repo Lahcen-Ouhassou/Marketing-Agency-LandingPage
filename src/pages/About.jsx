@@ -20,7 +20,7 @@ function About() {
   text={`We are a digital marketing agency dedicated to helping businesses grow and succeed in the online world. Our team combines creativity, strategy, and data-driven insights to deliver impactful marketing solutions.
 
 From building strong brand identities to managing high-performing campaigns, we focus on measurable results and long-term success. We believe in transparency, innovation, and creating real value for our clients through modern digital strategies.`}
-    typingSpeed={10}
+  typingSpeed={10}
   pauseDuration={1000}
   deletingSpeed={20}
   cursorBlinkDuration={0.9}
