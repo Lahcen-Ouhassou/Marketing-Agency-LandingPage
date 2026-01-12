@@ -89,7 +89,7 @@ Frontend:
 
 Clone the repository:
 
-git clone https://github.com/your-username/marketing-agency.git
+git clone https://github.com/Lahcen-Ouhassou/Marketing-Agency-LandingPage.git
 
 Install dependencies:
 
