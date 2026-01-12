@@ -122,8 +122,8 @@ npm run build
 
 
 
-👨‍💻 **Developed by**
+---
 
-**Lahcen Ouhassou**  
-Web Developer — React & Tailwind CSS  
-https://github.com/Lahcen-Ouhassou
+Developed by **[Lahcen Ouhassou](https://github.com/Lahcen-Ouhassou)**  
+
+---
