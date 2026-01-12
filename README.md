@@ -105,14 +105,9 @@ npm run build
 
 ---
 
-🌍 **Deployment**
+🌍 Live Demo  
+🔗 https://marketing-agency.vercel.app
 
-The project is ready for deployment on:
-
-- Vercel
-- Netlify
-
-Optimized for performance and SEO basics.
 
 ---
 
@@ -125,14 +120,7 @@ Optimized for performance and SEO basics.
 
 ---
 
-🎯 **Use Cases**
-
-- Marketing agencies
-- Digital services
-- Portfolio projects
-- Startup landing pages
-
----
+\
 
 👨‍💻 **Developed by**
 
