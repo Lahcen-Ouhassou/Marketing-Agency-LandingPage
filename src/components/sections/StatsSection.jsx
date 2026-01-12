@@ -1,10 +1,14 @@
+import ScrollFloat from '../ScrollFloat';
+import CountUp from '../CountUp';
+
 function StatsSection() {
-  const stats = [
-    { number: "10+", label: "Years of Experience" },
-    { number: "200+", label: "Happy Clients" },
-    { number: "500+", label: "Projects Completed" },
-    { number: "98%", label: "Client Satisfaction" },
-  ];
+ const stats = [
+  { value: 10, suffix: "+", label: "Years of Experience" },
+  { value: 200, suffix: "+", label: "Happy Clients" },
+  { value: 500, suffix: "+", label: "Projects Completed" },
+  { value: 98, suffix: "%", label: "Client Satisfaction" },
+];
+
 
   return (
     <section className="py-24 bg-white text-gray-900">
@@ -12,9 +16,18 @@ function StatsSection() {
 
         {/* ===== TITLE (نفس design) ===== */}
         <div className="mb-20 text-center">
-          <h2 className="text-3xl font-bold sm:text-4xl">
-            Our Impact in Numbers
-          </h2>
+           <ScrollFloat
+  animationDuration={1}
+  ease="back.inOut(2)"
+  scrollStart="center bottom+=50%"
+  scrollEnd="bottom bottom-=40%"
+  stagger={0.03}
+  containerClassName=""
+  textClassName="text-4xl font-bold sm:text-4xl"
+>
+ Our Impact in Numbers
+</ScrollFloat>
+
           <p className="mt-4 text-gray-500">
             Numbers that reflect our dedication and success
           </p>
@@ -27,9 +40,14 @@ function StatsSection() {
               key={index}
               className="transition-transform duration-300 hover:-translate-y-2"
             >
-              <h3 className="text-4xl font-extrabold text-indigo-600 mb-2">
-                {stat.number}
-              </h3>
+             <h3 className="text-4xl font-extrabold text-indigo-600 mb-2">
+  <CountUp
+    to={stat.value}
+    duration={2}
+    className="inline-block"
+  />
+  <span>{stat.suffix}</span>
+</h3>
               <p className="text-gray-600 font-medium">
                 {stat.label}
               </p>
