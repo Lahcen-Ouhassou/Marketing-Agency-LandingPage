@@ -118,7 +118,6 @@ npm run build
 - Semantic HTML structure
 - SEO-ready metadata
 
----
 
 
 
